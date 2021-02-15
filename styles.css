@@ -3,12 +3,47 @@
     margin: 0;
     padding: 0;
 }
-
 body {
     padding: 40px;
+    color: brown;
+    font-family: 'Courier New', Courier, monospace;
 }
-
+h1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    font-size: 3em;
+    margin: 20px;
+}
+h3 {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    font-size: 1.5em;
+    text-align: center;
+    letter-spacing: 5px;
+    word-spacing: 10px;
+    margin: 20px;
+}
 blockquote {
     margin: 0 0 0 30px;
+    font-style: italic;
+    line-height: 30px;
+    text-indent: 60px;
+    margin: 20px;
 }
-
+span {
+    text-decoration: line-through;
+}
+em {
+    text-transform: capitalize;
+}
+strong {
+    text-transform: uppercase;
+    font-weight: 600;
+}
+a {
+    text-decoration: none;
+    color: yellow;
+}
+a:visited {
+    color: rgb(243, 199, 21);
+}
